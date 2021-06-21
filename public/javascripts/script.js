@@ -15,6 +15,7 @@ addFood(steak[0], '#steak')
 .then(()=> {addFood(steak[5], '#steak') 
 .then(()=> {addFood(steak[6], '#steak')
 .then(()=> {addFood(steak[7], '#steak')
+document.querySelector("#table").innerHTML += `<img src="public/images/steak.jpg" />`;
                 });
              });
             });
@@ -30,6 +31,8 @@ addFood(mashPotatoes[0], '#mashPotatoes')
 .then(() => {addFood(mashPotatoes[2], '#mashPotatoes')
 .then(() => {addFood(mashPotatoes[3], '#mashPotatoes')
 .then(() => {addFood(mashPotatoes[4], '#mashPotatoes')
+document.querySelector("#table").innerHTML += `<img src="public/images/mashPotatoes.jpg" />`
+
         });
       });
     });
@@ -49,6 +52,7 @@ addFood(brusselSprouts[0], '#brusselSprouts')
     .then(() => {addFood(brusselSprouts[6], '#brusselSprouts')
     .then(() => {addFood(brusselSprouts[7], '#brusselSprouts')
     .then(() => {addFood(brusselSprouts[8], '#brusselSprouts')
+    document.querySelector("#table")   .innerHTML += `<img src="public/images/brusselSprouts.jpg" />`
                 });
               });
             });
